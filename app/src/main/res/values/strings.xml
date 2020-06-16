@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">Click Cabs</string>
+
+    <!-- Button text for MainActivity -->
+    <string name="driver_button_text">I\'m a driver</string>
+
+    <!-- Button text for MainActivity -->
+    <string name="customer_button_text">I\'m a customer</string>
+
+    <!-- EditText hint -->
+    <string name="email_hint">email</string>
+
+    <!-- EditText hint -->
+    <string name="password_hint">password</string>
+
+    <!-- Login button text -->
+    <string name="login">login</string>
+
+    <!-- Register button text -->
+    <string name="register">Register</string>
+
+    <!-- Driver TextView -->
+    <string name="driver">Driver Login</string>
+
+    <!-- Customer TextView -->
+    <string name="customer">Customer Login</string>
+
+    <!-- Toast Message text if the registration was not successful -->
+    <string name="sign_up_error">Error in signing up. Please try again</string>
+
+    <!-- Toast Message text if the login was not successful -->
+    <string name="sign_in_error">Error in signing in. Please try again</string>
+
+    <!-- Auto generated string for the title of the Driver Map Activity -->
+    <string name="title_activity_driver_map">Map</string>
+
+    <!-- Alert Dialog title for request of permission for access of location -->
+    <string name="title_location_permission">Allow Location access</string>
+
+    <!-- Alert Dialog message for request of permission for access of location to driver -->
+    <string name="message_location_permission">We need your location to get you your nearest customers. Please grant the permission for the same</string>
+
+    <!-- Positive button text for the location access alert dialog -->
+    <string name="ok">OK</string>
+
+    <!-- TextView text for getting your location -->
+    <string name="getting_location">Getting your location...</string>
+
+    <!-- Button text for requesting a cab -->
+    <string name="request">Ride now</string>
+
+    <!-- Button text for when the app is searching for cabs after "RIDE NOW" has been clicked -->
+    <string name="getting_ride">Getting your ride...</string>
+
+    <!-- Button text for when the app is getting the driver location -->
+    <string name="getting_driver_location">Getting driver location...</string>
+
+    <!-- Button text for when the app has got the driver location -->
+    <string name="driver_found">Driver Found</string>
+
+    <!-- Button text for logging out -->
+    <string name="settings">Settings</string>
+
+    <!-- Button text for logging out -->
+    <string name="logout">Logout</string>
+
+    <!-- Title of the customer map marker -->
+    <string name="map_marker_customer">You\'re here</string>
+
+    <!-- Title of the driver map marker -->
+    <string name="map_marker_driver">Your driver</string>
+
+    <!-- TextView text in DriverMapActivity for when the driver is idle -->
+    <string name="driver_idle">Driver idle</string>
+
+    <!-- TextView text in DriverMapActivity for when the app is locating the customer -->
+    <string name="getting_customer_location">Getting customer location</string>
+
+    <!-- TextView text in DriverMapActivity for when the driver is working -->
+    <string name="driver_working">Driver working</string>
+
+    <!-- Snackbar message that appears when the driver is within 100 m range of the customer -->
+    <string name="driver_is_here">Your driver is here!</string>
+
+    <!-- Snackbar action to dismiss the snackbar -->
+    <string name="dismiss">Dismiss</string>
+
+    <!-- Activity title for the CustomerSettingsActivity -->
+    <string name="customer_settings">Customer Settings</string>
+
+    <!-- Preference category for account -->
+    <string name="account_category">Account</string>
+
+    <!-- TextView text for profile picture -->
+    <string name="profile_picture">Profile Picture</string>
+
+    <!-- EditTextPreference strings for entering name of the customer -->
+    <string name="name">Name</string>
+    <string name="settings_name_key" translatable="false">customer_name</string>
+
+    <!-- EditTextPreference strings for entering phone number of the customer -->
+    <string name="phone_number">Phone Number</string>
+    <string name="settings_phone_number_key" translatable="false">customer_phone_number</string>
+
+    <!-- Toast message text that is displayed if the profile photo was successfully uploaded to the Firebase storage -->
+    <string name="profile_photo_updated">Profile photo updated!</string>
+
+    <!-- Toast message text that is displayed if the profile photo could not be successfully uploaded to the Firebase storage -->
+    <string name="failure_uploading_dp">Profile photo could not be updated. Please try again</string>
+
+    <!-- Dialog message that asks which app to use for selecting the photo -->
+    <string name="photo_intent_chooser">Complete action using</string>
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings">
+
+    <PreferenceCategory android:title="@string/account_category">
+
+        <EditTextPreference
+            android:icon="@drawable/baseline_account_circle_black_36"
+            android:inputType="textPersonName|textCapSentences"
+            android:key="@string/settings_name_key"
+            android:selectAllOnFocus="true"
+            android:title="@string/name" />
+
+        <EditTextPreference
+            android:icon="@drawable/baseline_phone_black_36"
+            android:inputType="number|phone"
+            android:key="@string/settings_phone_number_key"
+            android:selectAllOnFocus="true"
+            android:title="@string/phone_number" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

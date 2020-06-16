@@ -1,0 +1,17 @@
+******App dependencies/Libraries used: *********
+
+1. Used Firebase for authentication and maintenance of realtime database
+   --> Signed in with thapar.edu id
+2. Used Google Cloud Package for Google Maps API 
+   --> signed in with own gmail id
+3. Used Geofire for realtime location queries with Firebase. 
+   This is required for determining the realtime loaction of drivers to find
+   out the nearest driver available
+4. Used Glide library to store images as url for storage in Firebase Storage
+
+
+*******IMPORTANT NOTES *********
+
+1. To use drawables as marker icons for the map, instead of just using the image from the
+	drawable folder, create a new image asset for that image -> save that in mipmap ->
+	then use that icon 

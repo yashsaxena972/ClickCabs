@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "624340549392",
+    "firebase_url": "https://click-app-21c4e.firebaseio.com",
+    "project_id": "click-app-21c4e",
+    "storage_bucket": "click-app-21c4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624340549392:android:41f85a49be22745b",
+        "android_client_info": {
+          "package_name": "com.example.dell.clickapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "624340549392-k0ip9jfcl7tml3hk4flpr5nmo9bb53ld.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dell.clickapp",
+            "certificate_hash": "4f80ecaf958e3ec87d37e41ad59d2f31848126b0"
+          }
+        },
+        {
+          "client_id": "624340549392-lr3c1at6jjm9vdggl1i8ubvntr427f06.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3AfaPdaNPk90hrUQbE2dGrLWWYBzr6TI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "624340549392-lr3c1at6jjm9vdggl1i8ubvntr427f06.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

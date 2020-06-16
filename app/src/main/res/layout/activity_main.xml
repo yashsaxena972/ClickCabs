@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.clickapp.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/wallpaper_image_view"
+        android:src="@drawable/city_wallpaper"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/logo_image_view"
+        android:src="@drawable/click_logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="fitCenter"
+        android:layout_centerInParent="true"
+        android:scaleX="0.75"
+        android:scaleY="0.75"/>
+
+    <Button
+        android:id="@+id/customers_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/customer_button_text"
+        android:layout_alignParentBottom="true"/>
+
+    <Button
+        android:id="@+id/drivers_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/driver_button_text"
+        android:layout_above="@id/customers_button"
+        />
+
+
+</RelativeLayout>
